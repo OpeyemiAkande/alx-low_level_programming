@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**
  *main - Entry point
- *Return - 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
