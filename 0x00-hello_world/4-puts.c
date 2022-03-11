@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-/*A program that prints a line of tex to the output stream*/
+/**
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
+	/* Print something */
 	char str1[] = "Programming is like building a multilingual puzzle\n";
 
 	puts(str1);
