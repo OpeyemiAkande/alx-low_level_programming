@@ -3,4 +3,4 @@
 
 int main(void);
 
-#endif // MAIN_H
+#endif /* MAIN_H */
