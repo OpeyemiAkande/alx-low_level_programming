@@ -5,7 +5,7 @@
  *Return: 0 (Success)
  */
 
-void print_alphabet(void)
+char print_alphabet(void)
 {
 	char ch;
 
@@ -18,6 +18,8 @@ void print_alphabet(void)
 
 int main(void)
 {
-	print_alphabet();
+	char r[27] = {print_alphabet()};
+
+	printf("%s", r);
 	return (0);
 }
