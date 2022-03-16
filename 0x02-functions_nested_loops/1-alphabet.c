@@ -5,7 +5,7 @@
  *Return: 0 (Success)
  */
 
-int main(void)
+int m(void)
 {
 	char ch;
 
@@ -16,4 +16,4 @@ int main(void)
 	};
 
 	return (0);
-}
+
