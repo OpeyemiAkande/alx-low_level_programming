@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * print_alphabet - Prints characters 'a-z'
+ * print_alphabet - Prints alphabets and returns nothing
  * Return: Always 0
  */
 void print_alphabet(void)
