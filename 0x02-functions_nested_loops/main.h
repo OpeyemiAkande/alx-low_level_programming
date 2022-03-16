@@ -1,6 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef PRINT_ALPHABET
+#define PRINT_ALPHABET
 
 void print_alphabet(void);
 
-#endif /* MAIN_H */
+#endif /* PRINT_ALPHABET */
