@@ -3,10 +3,10 @@
 
 /**
  * main - check the code
- *
+ * print_alphabet - Prints characters 'a-z'
  * Return: Always 0
  */
-void print_alphabet (void)
+void print_alphabet(void)
 {
 	char ch;
 
