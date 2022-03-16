@@ -11,7 +11,7 @@ void jack_bauer(void)
 	{
 		while (min < 60)
 		{
-			printf("%0d:%0d\n", hr, min);
+			printf("%02d:%02d\n", hr, min);
 			min++;
 		}
 		min = 0;
