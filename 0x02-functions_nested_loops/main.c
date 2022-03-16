@@ -1,3 +1,0 @@
-#include "alphabets"
-
-char ;x

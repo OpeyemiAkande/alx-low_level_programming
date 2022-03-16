@@ -1,19 +1,12 @@
 #include <stdio.h>
-
+#include "1-main.h"
 /**
  *main - Entry Point
  *Return: 0 (Success)
  */
 
-int m(void)
+int main(void)
 {
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-		putchar('\n');
-	};
-
+	print_alphabet();
 	return (0);
-
+}
