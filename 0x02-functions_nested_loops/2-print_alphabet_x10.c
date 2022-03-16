@@ -1,9 +1,8 @@
-
+#include "main.h"
 #include <stdio.h>
 
 /**
- *main - Entry Point
- *Return: 0 (Success)
+ *print_alphabet_x10 - Prints alphabet ten times
  */
 
 void print_alphabet_x10(void)
@@ -19,10 +18,4 @@ void print_alphabet_x10(void)
 		}
 		putchar('\n');
 	}
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
