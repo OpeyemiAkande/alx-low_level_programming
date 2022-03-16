@@ -3,6 +3,7 @@
 /**
  * _abs - Returns the absolute value of a number
  * Return: number in absolute format
+ * @n: the number whose absolute value is required
  */
 
 int _abs(int n)
