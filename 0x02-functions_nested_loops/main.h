@@ -9,5 +9,6 @@ void print_alphabet_x10(void);
 int _putchar(int ch);
 int _isalpha(int c);
 int print_sign(int n);
+int _abs(int);
 
 #endif /* _ISLOWER */
