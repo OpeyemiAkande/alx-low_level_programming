@@ -3,12 +3,11 @@
 
 /**
  *main - check the code
- *print_alphabet - A function, prints "a-z"
+ *print_alphabet - prints alphabets
  *Return: Always 0
  */
 void print_alphabet(void)
 {
-	/* Prints alphabets */
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
