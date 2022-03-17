@@ -3,9 +3,9 @@
 /**
  * times_table - Prints the times table from 0 to 9
  */
-int add(int, int)
+int add(int i, intj)
 {
-	int i, j;
+	int num_sum;
 
 	num_sum = i + j;
 	return num_sum
