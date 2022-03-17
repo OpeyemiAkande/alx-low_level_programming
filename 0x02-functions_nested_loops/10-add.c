@@ -8,5 +8,5 @@ int add(int i, int j)
 	int num_sum;
 
 	num_sum = i + j;
-	return num_sum
+	return num_sum;
 }
