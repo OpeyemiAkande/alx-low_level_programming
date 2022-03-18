@@ -28,5 +28,7 @@ void more_numbers(void)
 		_putchar(second_number + 'O');
 		result++
 	}
+	i++
+	result = 0;
 	_putchar('\n');
 }	
