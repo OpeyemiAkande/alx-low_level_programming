@@ -26,6 +26,7 @@ void more_numbers(void)
 			_putchar(first_number + '0');
 		}
 		_putchar(second_number + 'O');
+		result++
 	}
 	_putchar('\n');
 }	
