@@ -6,6 +6,6 @@ int _isupper(int c);
 int _isdigit(int C);
 int mul(int a, int b);
 int _putchar(int c);
-void print_number(void);
+void print_numbers(void);
 
 #endif /* RETURNS VALUES FOR UPPERCASE */
