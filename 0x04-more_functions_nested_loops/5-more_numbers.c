@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - multiplies two integers
+ * more_numbers - multiplies two integers
  */
 void more_numbers(void)
 {
