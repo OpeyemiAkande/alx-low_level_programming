@@ -22,8 +22,7 @@ void more_numbers(void)
 				num = '0';
 				for (num = '0'; num <= '4'; num++)
 				{
-					_putchar('1');
-					_putchar(num);
+					_putchar('1' + num);
 				}
 			}
 		}
