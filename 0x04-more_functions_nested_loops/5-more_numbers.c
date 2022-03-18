@@ -6,9 +6,9 @@
  */
 void more_numbers(void)
 {
-	int i; 
+	int i;
 	int first_number;
-	int second_number; 
+	int second_number;
 	int result;
 
 	i = 0;
@@ -28,10 +28,10 @@ void more_numbers(void)
 				_putchar(first_number + '0');
 			}
 			_putchar(second_number + '0');
-			result++
+			result++;
 		}
-		i++
+		i++;
 		result = 0;
 		_putchar('\n');
 	}
-}	
+}
