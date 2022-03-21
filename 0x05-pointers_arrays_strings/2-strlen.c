@@ -13,7 +13,7 @@ int _strlen(char *s)
 	i = 0;
 	count = 0;
 
-	while (*(*s + i))
+	while ((s + i))
 	{
 		count++;
 		i++;
