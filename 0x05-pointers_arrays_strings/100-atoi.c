@@ -2,6 +2,15 @@
 #include <stdio.h>
 
 /**
+ * is_numerical - checks if is a digit
+ * If is a number it returns 1 else returns 0
+ */
+int is_numerical(unsigned int n)
+{
+	return ((n >= 0) && (n <= 9))
+}
+
+/**
  * _atoi - a function that converts a string into an integer
  *
  * @s: the pointer the string that would be converted into an integer
@@ -26,7 +35,7 @@ int _atoi(char *s)
 		}
 		else if (s[i] == '-')
 		{
-			sign += -1
+			sign += -1;
 		}
 	}
 	return (number + sign);
