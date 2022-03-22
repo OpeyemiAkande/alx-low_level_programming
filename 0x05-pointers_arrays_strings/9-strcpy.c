@@ -9,9 +9,10 @@
  *
  * Return: This function returns nothing
  */
-void print_array(char *dest, char *src)
+void *_strcopy(char *dest, char *src)
 {
 	int i;
+
 	i = 0;
 
 	while (src[i] != '\0')
