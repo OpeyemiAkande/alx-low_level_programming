@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_array - a funtion that prints half of an array of integers followed by a new line
+ * print_array - a funtion that prints half of an array of integers
+ * followed by a new line
  *
  * @a: the pointer the array of integers to be printed
  * @n: number of elements to be printed
@@ -12,9 +13,8 @@
 void print_array(int *a, int n)
 {
 	int i;
-	
+
 	i = 0;
-	
 	while (i < n)
 	{
 		printf("%d", a[i]);
