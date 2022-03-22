@@ -6,21 +6,25 @@
  * @s: the pointer the string array to be printed
  * Return: This function returns nothing
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-	int count, i, j;
+	int count, i, j, k = 0;
+	char t, *u = s;
 
 	i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
 		count = i;
 	}
 
-	for ((i - 1); i >= 0; i--)
+	for (j = (count - 1); j >= 0; j--)
 	{
-		_putchar(s[j]);
+		t = *(s + j);
+		_putchar(t);
+		*(u + k) = t;
+		k++;
 	}
 	_putchar('\n');
 }
