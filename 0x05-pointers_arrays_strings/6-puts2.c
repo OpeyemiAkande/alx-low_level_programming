@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * _puts - a funtion that prints the value of a string
+ * puts2 - a funtion that prints every other character of
+ * a string starting with the first
  *
- * @s: the pointer the string array to be printed
+ * @str: the pointer the string array to be printed
  * Return: This function returns nothing
  */
-void _puts(char *s)
+void puts2(char *str)
 {
-	char *t = s;
+	int a;
 
-	for (; *t != '\0'; t++)
+	for (a = 0; str[a] != '\0'; a++)
 	{
-		_putchar(*t);
-	}
-	_putchar('\n');
+		if (a % 2 == 0)
+		{
+			_putschar(str[a]);
+		}
+		_putschar('\n');
 }
