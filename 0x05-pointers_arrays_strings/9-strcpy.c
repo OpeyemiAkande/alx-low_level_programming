@@ -9,7 +9,7 @@
  *
  * Return: This function returns nothing
  */
-void *_strcopy(char *dest, char *src)
+void *_strcpy(char *dest, char *src)
 {
 	int i;
 
