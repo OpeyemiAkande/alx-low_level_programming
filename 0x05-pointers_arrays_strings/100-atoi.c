@@ -8,7 +8,7 @@
  *
  * Return: This function returns 0 as a possible value
  */
-char _atoi(char *s)
+int _atoi(char *s)
 {
 	unsigned int number, i;
 	int sign;
