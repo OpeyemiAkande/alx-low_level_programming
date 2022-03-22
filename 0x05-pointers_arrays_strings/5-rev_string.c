@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - a funtion that prints the value of a string in reverse order
+ * rev_string - a funtion that prints the value of a string in reverse order
  *
  * @s: the pointer the string array to be printed
  * Return: This function returns nothing
