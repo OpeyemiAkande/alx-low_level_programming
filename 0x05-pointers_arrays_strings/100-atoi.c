@@ -5,9 +5,9 @@
  * is_numerical - checks if is a digit
  * If is a number it returns 1 else returns 0
  */
-int is_numerical(unsigned int n)
+int is_numerical(int n)
 {
-	return ((n >= 0) && (n <= 9))
+	return ((n >= 0) && (n <= 9));
 }
 
 /**
