@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_strncpy - concatenate two strings
- *@dest: a pointerto a character that would be changed
- *@src: a pointer to a character that would also be changed
- *@n: value
- *Return: dest
+ *_strcmp - compare two strings
+ *@str1: a pointerto a string that would be compared
+ *@str2: a pointer to a string that would also be compared
+ *
+ *Return: integer values
  */
 
 char *_strncpy(char *dest, char *src, int n)
