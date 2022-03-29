@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strbrk - A function that compares a prefix of  a string of
+ * _strstr - A function that compares a prefix of  a string of
  * bytes of a memory loction to another string
  *
- * @s: A pointer to a memory area to be copied
- * @accept: pointer to a memory location where the string to be compared
+ * @needle: A substring to be searched
+ * @haystack: the main string
  *
  * Return: a pointer to the memory area s
  */
@@ -16,7 +16,7 @@ char *_strpbrk(char *s, char *accept)
 	i = 0;
 	lenght = sizeof(*s) / sizeof(char);
 
-	for (i = 0; i <= lenght; i++)
+	for (i = 0; i < lenght; i++)
 	{
 		for (j = 0; accept[j] != '\0'; j++)
 		{
