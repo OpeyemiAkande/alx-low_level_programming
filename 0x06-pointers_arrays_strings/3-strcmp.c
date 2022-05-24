@@ -1,42 +1,35 @@
 #include "main.h"
+
 /**
- *_strcmp - compare two strings
- *@str1: a pointer to a string that would be compared
- *@str2: a pointer to a string that would be compared
+ * _strcmp - compares two strings for similarity
+ * 
+ * @s1: one of the string to be compared
+ * @s2: one of the string to be compared
  *
- *Return: integer value
+ * Return: negative, zero or positve number
  */
-
-int _strcmp(char *str1, char *str2)
+int _strcmp(char *s1, char *s2)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-
-	while ((str1[i] != '\0') && (str2[i] != '\0'))
+	/* This block checks only for the first occurrence of a non-matching character */
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
-		if (str1[i] > str2[i])
-		{
+		if (s1[i] > s2[i])
 			return (1);
-		}
-		else if (str1[i] < str2[i])
-		{
+		else if (s1[i] < s2[i])
 			return (-1);
-		}
+
 		i++;
 	}
 
-	if (str1[i] == str2[i])
-	{
-		return (0);
-	}
-	else if (str1[i] > str2[i])
-	{
+	/* This block compares the strings after a null-character is encountered */
+	if (s1[i] > s2[i])
 		return (1);
-	}
-	else if (str1[i] < str2[i])
-	{
+	else if (s1[i] < s2[i])
 		return (-1);
-	}
+	else if (s1[i] == s2[i])
+		return (0);
+
 	return (0);
 }
